@@ -117,8 +117,16 @@
               "devServerTarget": "peluqueria:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "peluqueria"
+    }
+  },
+  "defaultProject": "peluqueria",
+  "cli": {
+    "analytics": false
+  }
 }
